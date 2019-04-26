@@ -1,0 +1,203 @@
+/*geral */
+
+    *{
+      font-family: 'Lato', sans-serif;
+    }
+
+    /* titulo das sessões*/
+    .titulo{ 
+        padding-top: 5%;
+    }
+
+/* fim titulo das sessoes */
+
+/* Barra de menu */
+    .navbar-custom {
+    padding-top: 1rem;
+    padding-bottom: 1rem; 
+    background-color: rgba(0, 0, 0, 0.9); /* cor da barra menu 0.9 é a opacidade*/
+    }
+
+    .navbar-custom .navbar-brand {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700; /* peso da fonte */ 
+    }
+
+    .navbar-custom .navbar-nav .nav-item .nav-link {
+    font-size: 0.8rem; 
+    font-weight: 700; /* peso da fonte */
+    letter-spacing: 0.1rem;
+    }
+
+/* Fim da Barra de menu */
+
+
+
+/* Inicia header */
+    header.masthead { /* imagem do cabecalho */
+        position: relative;
+        overflow: hidden;
+        padding-top: calc(7rem + 73px);
+        padding-bottom: 7rem;
+        background-image: url('../img/header.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        background-size: cover;
+        height:100%;
+    }
+
+    header.masthead .masthead-content {
+       z-index: 1;
+        position: relative;
+    }
+
+    /* textos */
+
+    header.masthead .masthead-content .masthead-heading {
+        font-size: 4rem;
+        color:white;
+    }
+
+    header.masthead .masthead-content .masthead-subheading {
+        font-size: 2rem;
+    }
+
+    /*fim de textos */
+
+    /* variação para o tamanho de tela */
+    @media (min-width: 992px) {
+      header.masthead {
+        padding-top: calc(10rem + 55px);
+        padding-bottom: 10rem;
+      }
+      header.masthead .masthead-content .masthead-heading {
+        font-size: 6rem;
+      }
+      header.masthead .masthead-content .masthead-subheading {
+        font-size: 4rem;
+      }
+    }
+
+    /* fim da variação */
+
+    /* botao do header */
+    .btn-primary{
+      padding:2%;
+      width:28%;
+      font-size: 1.5rem;
+    }
+    /* fim botao header */
+
+
+/* sobre css */
+    /*ARRUMAR ONDE COMEÇA SOBRE*/
+    #sobre{
+      padding-top: 5%;
+    }
+    /*ARRUMAR ONDE COMEÇA SOBRE*/
+
+    /* subtitulo textos sobre */
+    .subtitulo{
+      color:lightslategrey;
+    }
+    /*fim subtitulo */
+
+
+/*fim sobre */
+
+/*produtos*/
+   .produtos{
+    color:white;
+    padding: 3%;
+    font-weight: 700;
+    background-color:#007bff;
+    margin:0px; 
+    padding-top: 7%;
+   } 
+
+   .fas{
+     font-size:30px;
+     padding-top: 1%;
+   }
+
+   .far{
+     font-size: 30px;
+
+     padding-top: 1%;
+   }
+
+   #itens{
+     padding-bottom:4%;
+   }
+
+   .zoom {
+      padding:2%;
+      transition: transform .2s; /* Animation */
+      margin: 0 auto;
+    }
+
+  .zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  .btn-danger{
+      color:white;
+      padding: 2%;
+      width: 20%;
+      margin-bottom: 3%;
+      font-size: 1.3rem;
+    }
+
+/*fim produtos*/
+
+/*mapa*/
+.mapa{
+  padding-top: 7%;
+}
+
+/*fim mapa*/
+
+/*contato*/
+#formulario{
+  color:black;
+  margin-top: 2.5%;
+  padding: 3%;
+}
+
+.botao{
+  padding-top: 2%;
+  float:right;
+}
+
+    /* botao do mapa */
+    .btn-secundary{
+      color:white;
+      background-color: #007bff;
+      border-color: #007bff;
+      margin-bottom: 3%;
+    }
+    /* fim botao do MAPA */
+
+
+/*fim contato*/
+
+
+/*footer*/
+
+    footer{
+      padding: 1%;
+      padding-top: 2%;
+      background-color: #000000;
+      color: white;
+
+    }
+
+
+/*fim footer*/
+
+
+.class-name-with-blue-outline {
+    outline: 0;
+}
